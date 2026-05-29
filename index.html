@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Big Data Hub - IUPB</title>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+
+  <!-- Markdown parser: permite cargar archivos .md si luego los agregas al proyecto -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- ============================= -->
+  <!-- SIDEBAR -->
+  <!-- ============================= -->
+  <aside class="sidebar">
+    <div class="profile-box">
+      <!-- Puedes reemplazar este emoji por una imagen institucional si lo deseas -->
+      <div class="hub-logo">🧠</div>
+      <h1>Big Data Hub</h1>
+      <b>Especialización en Big Data</b>
+      <p>Información, bibliografía, herramientas y recursos</p>
+    </div>
+
+    <nav class="menu">
+      <button class="dropdown-button" onclick="loadHome()">
+        <span>🏠 Inicio</span>
+      </button>
+
+      <details class="dropdown" open>
+        <summary>📌 Información general</summary>
+        <button onclick="loadSection('overview')">¿Qué es este Hub?</button>
+        <button onclick="loadSection('program')">Sobre la especialización</button>
+        <button onclick="loadSection('methodology')">Ruta de trabajo</button>
+      </details>
+
+      <details class="dropdown">
+        <summary>📚 Bibliografía</summary>
+        <button onclick="loadSection('books')">Libros base</button>
+        <button onclick="loadSection('papers')">Artículos y papers</button>
+        <button onclick="loadSection('repositories')">Repositorios académicos</button>
+      </details>
+
+      <details class="dropdown">
+        <summary>🧰 Herramientas</summary>
+        <button onclick="loadSection('tools')">Ecosistema Big Data</button>
+        <button onclick="loadSection('python')">Python y notebooks</button>
+        <button onclick="loadSection('cloud')">Cloud y plataformas</button>
+      </details>
+
+      <details class="dropdown">
+        <summary>📦 Recursos</summary>
+        <button onclick="loadSection('datasets')">Datasets</button>
+        <button onclick="loadSection('templates')">Plantillas y guías</button>
+        <button onclick="loadSection('glossary')">Glosario Big Data</button>
+      </details>
+
+      <details class="dropdown">
+        <summary>🔗 Enlaces rápidos</summary>
+        <button onclick="openExternal('https://classroom.google.com/')">Google Classroom</button>
+        <button onclick="openExternal('https://colab.research.google.com/')">Google Colab</button>
+        <button onclick="openExternal('https://github.com/')">GitHub</button>
+        <button onclick="openExternal('https://www.kaggle.com/datasets')">Kaggle Datasets</button>
+        <button onclick="loadContact()">Contacto</button>
+      </details>
+    </nav>
+  </aside>
+
+  <!-- ============================= -->
+  <!-- MAIN CONTENT -->
+  <!-- ============================= -->
+  <main class="main">
+    <div id="content"></div>
+  </main>
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js"></script>
+</body>
+</html>
