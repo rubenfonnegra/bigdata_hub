@@ -1,18 +1,37 @@
-# Semana 4: Introducción y repositorio
 
-## 🎯 Objetivos
+## Presentación
 
-- Reconocer la estructura general del curso.
-- Explorar el repositorio de trabajo.
-- Comprender conceptos iniciales de aprendizaje de máquinas.
+Aquí puedes escribir la presentación general de la asignatura, su propósito dentro de la Especialización en Big Data y la forma como se articula con el programa.
 
-## 📌 Temas
+## Información del curso
 
-- Introducción al curso.
-- Repositorio de GitHub.
-- Notebooks de Jupyter.
-- Conceptos básicos de aprendizaje de máquinas.
+| Elemento | Descripción |
+|---|---|
+| <b>Nombre de la asignatura</b> | Arquitectura de big data |
+| <b>Docente</b> | Pendiente por definir |
+| <b>Créditos</b> | 4 |
+| <b>Hrs de trabajo presencial</b> | 4 |
+| <b>Hrs de trabajo independiente</b> | 8 |
+| <b>Semestre</b> | 1 |
 
-## 🧠 Actividad
+## Herramientas
 
-Revisa el notebook de la semana y ejecuta las primeras celdas.
+- Python
+- Google Colab
+- Jupyter Notebook
+- GitHub
+- Datasets abiertos
+
+## Bibliografía
+
+- Libro o lectura base 1.
+- Artículo recomendado 1.
+- Documentación técnica 1.
+
+
+## Recursos
+
+- [Google Colab](https://colab.research.google.com/)
+- [Kaggle Datasets](https://www.kaggle.com/datasets)
+- [GitHub](https://github.com/)
+

@@ -1,4 +1,3 @@
-# Asignatura 01
 
 ## Presentación
 
@@ -8,10 +7,12 @@ Aquí puedes escribir la presentación general de la asignatura, su propósito d
 
 | Elemento | Descripción |
 |---|---|
-| Nombre de la asignatura | Pendiente por definir |
-| Docente | Pendiente por definir |
-| Créditos | Pendiente por definir |
-| Modalidad | Pendiente por definir |
+| <b>Nombre de la asignatura</b> | Arquitectura de big data |
+| <b>Docente</b> | Pendiente por definir |
+| <b>Créditos</b> | 4 |
+| <b>Hrs de trabajo presencial</b> | 4 |
+| <b>Hrs de trabajo independiente</b> | 8 |
+| <b>Semestre</b> | 1 |
 
 ## Herramientas
 
@@ -27,15 +28,10 @@ Aquí puedes escribir la presentación general de la asignatura, su propósito d
 - Artículo recomendado 1.
 - Documentación técnica 1.
 
+
 ## Recursos
 
 - [Google Colab](https://colab.research.google.com/)
 - [Kaggle Datasets](https://www.kaggle.com/datasets)
 - [GitHub](https://github.com/)
 
-## Actividades sugeridas
-
-1. Revisión de conceptos clave.
-2. Desarrollo de práctica guiada.
-3. Análisis de caso aplicado.
-4. Entrega de evidencia o avance de proyecto.

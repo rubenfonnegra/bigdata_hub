@@ -28,25 +28,40 @@
         <span>🏠 Inicio</span>
       </button>
 
-      <details class="dropdown" open>
+      <details class="dropdown" close>
         <summary>📌 Información general</summary>
         <button onclick="loadSection('overview')">¿Qué es este Hub?</button>
         <button onclick="loadSection('program')">Sobre la especialización</button>
         <!-- <button onclick="loadSection('methodology')">Ruta de trabajo</button> -->
       </details>
 
-      <details class="dropdown" open>
-        <summary>🎓 Asignaturas</summary>
-        <button onclick="loadCourse('asignatura_01')">Asignatura 01</button>
-        <button onclick="loadCourse('asignatura_02')">Asignatura 02</button>
-        <button onclick="loadCourse('asignatura_03')">Asignatura 03</button>
-        <button onclick="loadCourse('asignatura_04')">Asignatura 04</button>
-        <button onclick="loadCourse('asignatura_05')">Asignatura 05</button>
-        <button onclick="loadCourse('asignatura_06')">Asignatura 06</button>
-        <button onclick="loadCourse('asignatura_07')">Asignatura 07</button>
-        <button onclick="loadCourse('asignatura_08')">Asignatura 08</button>
-        <button onclick="loadCourse('asignatura_09')">Asignatura 09</button>
-        <button onclick="loadCourse('asignatura_10')">Asignatura 10</button>
+      <details class="dropdown" closed>
+        <summary>🎓 Asignaturas Semestre 1</summary>
+        <button onclick="loadCourse('asignatura_01')">Arquitectura de big data</button>
+        <button onclick="loadCourse('asignatura_02')">Estadística para Analítica</button>
+        <button onclick="loadCourse('asignatura_03')">Ética y regulación</button>
+        <button onclick="loadCourse('asignatura_04')">Gestión de Datos Masivos</button>
+        <button onclick="loadCourse('asignatura_05')">Inteligencia de Negocios</button>
+        <!-- <button onclick="loadCourse('asignatura_06')">S2 - Analítica de datos</button>
+        <button onclick="loadCourse('asignatura_07')">S2 - Gobernanza de datos</button>
+        <button onclick="loadCourse('asignatura_08')">S2 - (Op1) Inteligencia Computacional</button>
+        <button onclick="loadCourse('asignatura_09')">S2 - Optativa 2</button>
+        <button onclick="loadCourse('asignatura_10')">S2 - Trabajo de grado</button> -->
+      </details>
+
+
+      <details class="dropdown" closed>
+        <summary>🎓 Asignaturas Semestre 2</summary>
+        <!-- <button onclick="loadCourse('asignatura_01')">S1 - Arquitectura de big data</button>
+        <button onclick="loadCourse('asignatura_02')">S1 - Estadística para Analítica</button>
+        <button onclick="loadCourse('asignatura_03')">S1 - Ética y regulación</button>
+        <button onclick="loadCourse('asignatura_04')">S1 - Gestión de Datos Masivos</button>
+        <button onclick="loadCourse('asignatura_05')">S1 - Inteligencia de Negocios</button> -->
+        <button onclick="loadCourse('asignatura_06')">Analítica de datos</button>
+        <button onclick="loadCourse('asignatura_07')">Gobernanza de datos</button>
+        <button onclick="loadCourse('asignatura_08')">(Op1) Inteligencia Computacional</button>
+        <button onclick="loadCourse('asignatura_09')">(Op2) Optativa 2</button>
+        <button onclick="loadCourse('asignatura_10')">Trabajo de grado</button>
       </details>
 
       <details class="dropdown">

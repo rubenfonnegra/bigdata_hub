@@ -4,54 +4,54 @@
 
 const courses = {
   asignatura_01: {
-    title: "Asignatura 01",
-    folder: "Asignaturas/asignatura_01",
-    mdFile: "Asignaturas/asignatura_01/README.md"
+    title: "Arquitectura de big data",
+    folder: "Asignaturas/S1_Arquitectura_big_data",
+    mdFile: "Asignaturas/S1_Arquitectura_big_data/README.md"
   },
   asignatura_02: {
-    title: "Asignatura 02",
-    folder: "Asignaturas/asignatura_02",
-    mdFile: "Asignaturas/asignatura_02/README.md"
+    title: " Estadística para Analítica",
+    folder: "Asignaturas/S1_Estadística_analitica",
+    mdFile: "Asignaturas/S1_Estadística_analitica/README.md"
   },
   asignatura_03: {
-    title: "Asignatura 03",
-    folder: "Asignaturas/asignatura_03",
-    mdFile: "Asignaturas/asignatura_03/README.md"
+    title: "Ética y regulación",
+    folder: "Asignaturas/S1_Etica_regulacion_datos",
+    mdFile: "Asignaturas/S1_Etica_regulacion_datos/README.md"
   },
   asignatura_04: {
-    title: "Asignatura 04",
-    folder: "Asignaturas/asignatura_04",
-    mdFile: "Asignaturas/asignatura_04/README.md"
+    title: "Gestión de Datos Masivos",
+    folder: "Asignaturas/S1_Gestion_datos_masivos",
+    mdFile: "Asignaturas/S1_Gestion_datos_masivos/README.md"
   },
   asignatura_05: {
-    title: "Asignatura 05",
-    folder: "Asignaturas/asignatura_05",
-    mdFile: "Asignaturas/asignatura_05/README.md"
+    title: "Inteligencia de Negocios",
+    folder: "Asignaturas/S1_Inteligencia_negocios",
+    mdFile: "Asignaturas/S1_Inteligencia_negocios/README.md"
   },
   asignatura_06: {
-    title: "Asignatura 06",
-    folder: "Asignaturas/asignatura_06",
-    mdFile: "Asignaturas/asignatura_06/README.md"
+    title: "Analítica de datos",
+    folder: "Asignaturas/S2_Analitica_datos",
+    mdFile: "Asignaturas/S2_Analitica_datos/README.md"
   },
   asignatura_07: {
-    title: "Asignatura 07",
-    folder: "Asignaturas/asignatura_07",
-    mdFile: "Asignaturas/asignatura_07/README.md"
+    title:  "Gobernanza de datos",
+    folder: "Asignaturas/S2_Gobernanza_datos",
+    mdFile: "Asignaturas/S2_Gobernanza_datos/README.md"
   },
   asignatura_08: {
-    title: "Asignatura 08",
-    folder: "Asignaturas/asignatura_08",
-    mdFile: "Asignaturas/asignatura_08/README.md"
+    title:  "Optativa 1",
+    folder: "Asignaturas/S2_Opt1",
+    mdFile: "Asignaturas/S2_Opt1/README.md"
   },
   asignatura_09: {
-    title: "Asignatura 09",
-    folder: "Asignaturas/asignatura_09",
-    mdFile: "Asignaturas/asignatura_09/README.md"
+    title:  "Optativa 2",
+    folder: "Asignaturas/S2_Opt2",
+    mdFile: "Asignaturas/S2_Opt2/README.md"
   },
   asignatura_10: {
-    title: "Asignatura 10",
-    folder: "Asignaturas/asignatura_10",
-    mdFile: "Asignaturas/asignatura_10/README.md"
+    title:  "Trabajo de grado",
+    folder: "Asignaturas/S2_Trabajo_grado",
+    mdFile: "Asignaturas/S2_Trabajo_grado/README.md"
   }
 };
 
@@ -247,7 +247,7 @@ function loadCourse(courseKey) {
         <section class="section-header">
           <span class="section-badge">🎓 Asignatura</span>
           <h1>${course.title}</h1>
-          <p>Contenido cargado desde <code>${course.mdFile}</code>.</p>
+          <p> </p>
         </section>
 
         <section class="content-card markdown-card">
