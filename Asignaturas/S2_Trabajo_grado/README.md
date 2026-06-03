@@ -5,14 +5,39 @@ Aquí puedes escribir la presentación general de la asignatura, su propósito d
 
 ## Información del curso
 
-| Elemento | Descripción |
-|---|---|
-| <b>Nombre de la asignatura</b> | Arquitectura de big data |
-| <b>Docente</b> | Pendiente por definir |
-| <b>Créditos</b> | 4 |
-| <b>Hrs de trabajo presencial</b> | 4 |
-| <b>Hrs de trabajo independiente</b> | 8 |
-| <b>Semestre</b> | 1 |
+<div class="course-info">
+
+  <div class="course-item">
+    <span class="label">📘 Asignatura</span>
+    <span class="value"> Trabajo de grado </span>
+  </div>
+
+  <div class="course-item">
+    <span class="label">👨‍🏫 Docente</span>
+    <span class="value"> Miguel Becerra </span>
+  </div>
+
+  <div class="course-item">
+    <span class="label">🎓 Créditos</span>
+    <span class="value">3</span>
+  </div>
+
+  <div class="course-item">
+    <span class="label">🏫 Trabajo presencial</span>
+    <span class="value">3 horas</span>
+  </div>
+
+  <div class="course-item">
+    <span class="label">📚 Trabajo independiente</span>
+    <span class="value">6 horas</span>
+  </div>
+
+  <div class="course-item">
+    <span class="label">📅 Semestre</span>
+    <span class="value">2</span>
+  </div>
+
+</div>
 
 ## Herramientas
 

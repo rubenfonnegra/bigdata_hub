@@ -17,7 +17,8 @@
 <body>
   <aside class="sidebar">
     <div class="profile-box">
-      <div class="hub-logo">🧠</div>
+      <!-- <div class="hub-logo">🧠</div> -->
+      <img src="Images/iupb_logo.png" alt="Logo" class="profile-img" width="250">
       <h1>Big Data Hub</h1>
       <b>Especialización en Big Data</b>
       <p>Información general, asignaturas y enlaces rápidos</p>
@@ -36,7 +37,7 @@
       </details>
 
       <details class="dropdown" closed>
-        <summary>🎓 Asignaturas Semestre 1</summary>
+        <summary>🎓 Semestre 1</summary>
         <button onclick="loadCourse('asignatura_01')">Arquitectura de big data</button>
         <button onclick="loadCourse('asignatura_02')">Estadística para Analítica</button>
         <button onclick="loadCourse('asignatura_03')">Ética y regulación</button>
@@ -51,7 +52,7 @@
 
 
       <details class="dropdown" closed>
-        <summary>🎓 Asignaturas Semestre 2</summary>
+        <summary>🎓 Semestre 2</summary>
         <!-- <button onclick="loadCourse('asignatura_01')">S1 - Arquitectura de big data</button>
         <button onclick="loadCourse('asignatura_02')">S1 - Estadística para Analítica</button>
         <button onclick="loadCourse('asignatura_03')">S1 - Ética y regulación</button>
@@ -64,12 +65,14 @@
         <button onclick="loadCourse('asignatura_10')">Trabajo de grado</button>
       </details>
 
-      <details class="dropdown">
+      <details class="dropdown" open>
         <summary>🔗 Enlaces rápidos</summary>
         <button onclick="openExternal('https://classroom.google.com/')">Google Classroom</button>
-        <button onclick="openExternal('https://colab.research.google.com/')">Google Colab</button>
-        <button onclick="openExternal('https://github.com/')">GitHub</button>
-        <button onclick="openExternal('https://www.kaggle.com/datasets')">Kaggle Datasets</button>
+        <button onclick="openExternal('https://sicau.pascualbravo.edu.co/SICAU/Account/Login')">SICAU</button>
+        <button onclick="openExternal('https://sites.google.com/pascualbravo.edu.co/posgrados/profesores?pli=1')">Micrositio posgrados</button>
+        <!-- <button onclick="openExternal('https://colab.research.google.com/')">Google Colab</button> -->
+        <!-- <button onclick="openExternal('https://github.com/')">GitHub</button> -->
+        <!-- <button onclick="openExternal('https://www.kaggle.com/datasets')">Kaggle Datasets</button> -->
         <button onclick="loadContact()">Contacto</button>
       </details>
     </nav>

@@ -62,24 +62,113 @@ const sections = {
     subtitle: "Un sitio central para alojar información, materiales, herramientas y recursos de la Especialización en Big Data.",
     html: `
       <h2>Propósito del sitio</h2>
-      <p><strong>Big Data Hub</strong> funciona como un repositorio general para acompañar los procesos académicos de la especialización. La idea es que estudiantes y docentes tengan un solo punto de acceso para consultar información del programa, recursos por asignatura, enlaces de trabajo y materiales complementarios.</p>
+      <p>
+        <strong>Big Data Hub</strong> es el espacio central de consulta de la Especialización en Big Data de la Institución Universitaria Pascual Bravo. Su propósito 
+        es facilitar el acceso a la información académica, recursos de aprendizaje, materiales de apoyo y contenidos de las asignaturas que conforman el programa. 
+        A través de este portal, estudiantes y docentes pueden encontrar de manera organizada documentos institucionales, recursos bibliográficos, herramientas 
+        tecnológicas, orientaciones académicas y materiales complementarios que apoyan el desarrollo de las actividades formativas.
+      </p>
 
       <div class="callout">
-        <strong>Organización principal:</strong> la información específica de cada curso se cargará desde archivos <code>.md</code>, ubicados en carpetas independientes por asignatura.
+      <h2>¿Qué encontrarás aquí?</h2>
+      <ul>
+        <li>Información general de la especialización.</li>
+        <li>Acceso a material de las asignaturas del programa.</li>
+        <li>Bibliografía y recursos de consulta.</li>
+        <li>Herramientas para análisis y procesamiento de datos.</li>
+        <li>Materiales de apoyo para proyectos y actividades académicas.</li>
+        <li>Enlaces institucionales de interés.</li>
+      </ul>
       </div>
 
-      <h2>Estructura sugerida</h2>
-      <pre><code>BigDataHub/
-├── index.html
-├── style.css
-├── script.js
-└── Asignaturas/
-    ├── asignatura_01/
-    │   └── README.md
-    ├── asignatura_02/
-    │   └── README.md
-    └── ...
-</code></pre>
+      <h2>🗺️ Ruta de trabajo</h2>
+        <h3>¿Cómo aprovechar este espacio?</h3>
+
+        <p>
+          Para obtener el máximo beneficio de <strong>Big Data Hub</strong>, se recomienda seguir la siguiente ruta de trabajo:
+        </p>
+
+        <div class="info-card">
+          <h3>1️⃣ Consulta la información general</h3>
+          <p>
+            Conoce la estructura del programa, sus objetivos, recursos institucionales y orientaciones académicas.
+          </p>
+        </div>
+
+        <div class="info-card">
+          <h3>2️⃣ Accede a tu asignatura</h3>
+          <p>
+            Ingresa a la sección correspondiente a cada curso para encontrar materiales de estudio, recursos complementarios y orientaciones específicas.
+          </p>
+        </div>
+
+        <div class="info-card">
+          <h3>3️⃣ Revisa los recursos de apoyo</h3>
+          <p>
+            Explora herramientas, bibliografía recomendada, datasets y materiales adicionales que fortalezcan tu proceso de aprendizaje.
+          </p>
+        </div>
+
+        <div class="info-card">
+          <h3>4️⃣ Desarrolla tus actividades académicas</h3>
+          <p>
+            Utiliza los recursos disponibles para apoyar el desarrollo de proyectos, análisis de datos, investigaciones y demás actividades del programa.
+          </p>
+        </div>
+
+        <div class="info-card">
+          <h3>5️⃣ Mantente actualizado</h3>
+          <p>
+            Consulta periódicamente el sitio para acceder a nuevos materiales, recursos y actualizaciones realizadas por los docentes y coordinadores académicos.
+          </p>
+        </div>
+
+        <h2>📚 Asignaturas</h2>
+        <h3>Espacios académicos del programa</h3>
+
+        <p>
+          En esta sección encontrarás las asignaturas que conforman el plan de estudios de la
+          <strong>Especialización en Big Data</strong>.
+        </p>
+
+        <p>
+          Cada curso dispone de un espacio propio donde podrás consultar:
+        </p>
+
+        <ul>
+          <li>Información de la asignatura.</li>
+          <li>Contenidos temáticos.</li>
+          <li>Bibliografía recomendada.</li>
+          <li>Herramientas y software utilizados.</li>
+          <li>Materiales académicos.</li>
+          <li>Recursos complementarios.</li>
+        </ul>
+
+        <p>
+          Selecciona una asignatura para acceder a sus contenidos específicos.
+        </p>
+
+        <h2>🔗 Enlaces rápidos</h2>
+        <h3>Accesos de interés para estudiantes</h3>
+
+        <p>
+          Esta sección reúne enlaces institucionales y herramientas de uso frecuente que apoyan el desarrollo de las actividades académicas de la especialización.
+        </p>
+
+        <p>
+          Aquí podrás encontrar accesos a:
+        </p>
+
+        <ul>
+          <li>Plataformas académicas institucionales.</li>
+          <!-- <li>Correo institucional.</li> -->
+          <!-- <li>Biblioteca digital.</li> -->
+          <!-- <li>Repositorios académicos.</li> --> 
+          <li>Herramientas colaborativas.</li>
+          <li>Recursos tecnológicos y servicios de apoyo.</li>
+        </ul>
+
+
     `
   },
 
@@ -170,14 +259,23 @@ const sections = {
 function loadHome() {
   document.getElementById("content").innerHTML = `
     <section class="hero">
+      <img src="Images/iupb_logo.png" alt="Logo" class="profile-img" width="700">
       <p class="eyebrow">Bienvenido/a 👋</p>
       <h1>Big Data Hub</h1>
       <h2>Repositorio general de la Especialización en Big Data</h2>
-      <p class="description">Este sitio reúne información general, enlaces rápidos y recursos por asignatura. Cada curso puede tener su propia carpeta con un archivo <code>README.md</code> para mostrar materiales, bibliografía, herramientas, datasets, actividades y orientaciones.</p>
+      <p class="description">
+        Este sitio reúne en un solo lugar los recursos académicos de la Especialización en Big Data. Aquí podrás consultar información general del programa, 
+        documentos institucionales, herramientas de apoyo y contenidos específicos de cada asignatura. A través de este portal tendrás acceso organizado a 
+        materiales de estudio, bibliografía recomendada, actividades, datasets, guías y otros recursos que fortalecerán tu formación en analítica de datos,
+        inteligencia artificial y tecnologías asociadas al ecosistema Big Data.
+      </p>
       <div class="hero-actions">
+        <a class="btn primary" onclick="loadContact()" target="_blank">Contacto</a>
+        <!--
         <a class="btn primary" href="https://classroom.google.com/" target="_blank">Classroom</a>
         <a class="btn secondary" href="https://colab.research.google.com/" target="_blank">Google Colab</a>
         <a class="btn secondary" href="https://www.kaggle.com/datasets" target="_blank">Datasets</a>
+         -->
       </div>
     </section>
 
@@ -186,18 +284,18 @@ function loadHome() {
       <div class="overview-grid">
         <div class="info-card">
           <h3>📌 Información general</h3>
-          <p>Presentación del Hub, información del programa y ruta de trabajo.</p>
-          <span>Hub Programa Ruta</span>
+          <p>Presentación del Hub e información del programa.</p>
+          <!-- <span>Hub Programa Ruta</span> -->
         </div>
         <div class="info-card">
           <h3>🎓 Asignaturas</h3>
-          <p>Diez espacios para cargar la información específica de cada curso mediante archivos Markdown.</p>
-          <span>README.md Cursos Recursos</span>
+          <p>Espacios con información específica de cada curso, recursos bibliográficos, herramientas de programación entre otros</p>
+          <!-- <span>README.md Cursos Recursos</span> -->
         </div>
         <div class="info-card">
           <h3>🔗 Enlaces rápidos</h3>
-          <p>Accesos directos a plataformas de trabajo como Classroom, Colab, GitHub y Kaggle.</p>
-          <span>Classroom Colab GitHub</span>
+          <p>Accesos directos a plataformas de trabajo como Classroom, SICAU y microsito posgrados</p>
+          <!-- <span>Classroom Colab GitHub</span> -->
         </div>
       </div>
     </section>
@@ -276,15 +374,59 @@ function loadCourse(courseKey) {
 
 function loadContact() {
   document.getElementById("content").innerHTML = `
+    <!-- 
     <section class="contact-card">
-      <h1>Contacto</h1>
-      <h3><strong>Profesor:</strong> Ruben D. Fonnegra</h3>
+      <h1>📬 Información de contacto</h1>
+      <h3><strong>Coordinador de programa:</strong> Ruben D. Fonnegra</h3>
       <p><strong>Email:</strong> <a href="mailto:ruben.fonnegra@pascualbravo.edu.co">ruben.fonnegra@pascualbravo.edu.co</a></p>
       <p><strong>Sitio web:</strong> <a href="https://rubenfonnegra.github.io/" target="_blank">https://rubenfonnegra.github.io/</a></p>
       <div class="resource-buttons">
         <a class="btn primary" href="mailto:ruben.fonnegra@pascualbravo.edu.co">Enviar email</a>
         <a class="btn secondary" href="https://github.com/rubenfonnegra" target="_blank">GitHub</a>
       </div>
+    </section>
+    -->
+
+    <section class="contact-section">
+      <h1>📬 Información de contacto</h1>
+        <div class="contact-grid">
+
+          <div class="contact-card">
+            <h2><strong>Coordinador de programa:</strong> Ruben D. Fonnegra</h2>
+            <p>Información académica del programa.</p>
+            <p><strong>Email:</strong> <a href="mailto:ruben.fonnegra@pascualbravo.edu.co">ruben.fonnegra@pascualbravo.edu.co</a></p>
+            <div class="resource-buttons">
+              <a class="btn primary" href="mailto:ruben.fonnegra@pascualbravo.edu.co">Enviar email</a>
+              <a class="btn secondary" href="https://github.com/rubenfonnegra" target="_blank">GitHub</a>
+              <a class="btn secondary" href="https://rubenfonnegra.github.io/" target="_blank">Sitio web</a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <h3>🎓 Departamento de Posgrados</h3>
+            <p>Información general de los programas de posgrado.</p>
+
+            <a href="mailto:posgrados@pascualbravo.edu.co">
+              posgrados@pascualbravo.edu.co
+            </a>
+            <div class="resource-buttons">
+              <a class="btn primary" href="mailto:posgrados@pascualbravo.edu.co">Enviar email</a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <h3>📝 Trabajo de Grado Posgrados</h3>
+            <p>Consultas relacionadas con modalidades, procedimientos y seguimiento de trabajos de grado.</p>
+
+            <a href="mailto:trabajodegradoposgrados@pascualbravo.edu.co">
+              trabajodegradoposgrados@pascualbravo.edu.co
+            </a>
+            <div class="resource-buttons">
+              <a class="btn primary" href="mailto:trabajodegradoposgrados@pascualbravo.edu.co">Enviar email</a>
+            </div>
+          </div>
+
+        </div>
     </section>
   `;
 }
