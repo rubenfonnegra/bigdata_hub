@@ -7,7 +7,7 @@
 
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
 
-  <!-- Markdown parser: permite cargar archivos .md si luego los agregas al proyecto -->
+  <!-- Markdown parser -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
   <!-- CSS -->
@@ -15,16 +15,12 @@
 </head>
 
 <body>
-  <!-- ============================= -->
-  <!-- SIDEBAR -->
-  <!-- ============================= -->
   <aside class="sidebar">
     <div class="profile-box">
-      <!-- Puedes reemplazar este emoji por una imagen institucional si lo deseas -->
       <div class="hub-logo">🧠</div>
       <h1>Big Data Hub</h1>
       <b>Especialización en Big Data</b>
-      <p>Información, bibliografía, herramientas y recursos</p>
+      <p>Información general, asignaturas y enlaces rápidos</p>
     </div>
 
     <nav class="menu">
@@ -36,28 +32,21 @@
         <summary>📌 Información general</summary>
         <button onclick="loadSection('overview')">¿Qué es este Hub?</button>
         <button onclick="loadSection('program')">Sobre la especialización</button>
-        <button onclick="loadSection('methodology')">Ruta de trabajo</button>
+        <!-- <button onclick="loadSection('methodology')">Ruta de trabajo</button> -->
       </details>
 
-      <details class="dropdown">
-        <summary>📚 Bibliografía</summary>
-        <button onclick="loadSection('books')">Libros base</button>
-        <button onclick="loadSection('papers')">Artículos y papers</button>
-        <button onclick="loadSection('repositories')">Repositorios académicos</button>
-      </details>
-
-      <details class="dropdown">
-        <summary>🧰 Herramientas</summary>
-        <button onclick="loadSection('tools')">Ecosistema Big Data</button>
-        <button onclick="loadSection('python')">Python y notebooks</button>
-        <button onclick="loadSection('cloud')">Cloud y plataformas</button>
-      </details>
-
-      <details class="dropdown">
-        <summary>📦 Recursos</summary>
-        <button onclick="loadSection('datasets')">Datasets</button>
-        <button onclick="loadSection('templates')">Plantillas y guías</button>
-        <button onclick="loadSection('glossary')">Glosario Big Data</button>
+      <details class="dropdown" open>
+        <summary>🎓 Asignaturas</summary>
+        <button onclick="loadCourse('asignatura_01')">Asignatura 01</button>
+        <button onclick="loadCourse('asignatura_02')">Asignatura 02</button>
+        <button onclick="loadCourse('asignatura_03')">Asignatura 03</button>
+        <button onclick="loadCourse('asignatura_04')">Asignatura 04</button>
+        <button onclick="loadCourse('asignatura_05')">Asignatura 05</button>
+        <button onclick="loadCourse('asignatura_06')">Asignatura 06</button>
+        <button onclick="loadCourse('asignatura_07')">Asignatura 07</button>
+        <button onclick="loadCourse('asignatura_08')">Asignatura 08</button>
+        <button onclick="loadCourse('asignatura_09')">Asignatura 09</button>
+        <button onclick="loadCourse('asignatura_10')">Asignatura 10</button>
       </details>
 
       <details class="dropdown">
@@ -71,14 +60,10 @@
     </nav>
   </aside>
 
-  <!-- ============================= -->
-  <!-- MAIN CONTENT -->
-  <!-- ============================= -->
   <main class="main">
     <div id="content"></div>
   </main>
 
-  <!-- JAVASCRIPT -->
   <script src="script.js"></script>
 </body>
 </html>
